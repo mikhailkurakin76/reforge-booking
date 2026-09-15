@@ -1,4 +1,3 @@
-jsx
 import { useState, useEffect } from "react";
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
@@ -6,12 +5,6 @@ const SUPABASE_URL = "https://ikvvjkvkcqponibjodus.supabase.co";
 const SUPABASE_KEY = "sb_publishable_XWo_rIfwPDnuXtdnz11WLQ_kQOSGor4";
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
-import { useState, useEffect } from "react";
-import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
-
-const SUPABASE_URL = "https://ikvvjkvkcqponibjodus.supabase.co";
-const SUPABASE_KEY = "sb_publishable_XWo_rIfwPDnuXtdnz11WLQ_kQOSGor4";
-const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const COURSES = [
   "Product Strategy",
